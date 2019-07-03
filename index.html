@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link rel="stylesheet" href="PatternLibrary.css">
+        <title>PatternLibrary</title>
+    </head>
+    <body id="is-dropdown-page">
+        <div class="documentation-wrapper">
+            <header>
+                <div class="fixed-sidenav">
+                    <div class="column">
+                        <a class="sidenav-item active-dropdown-item" href="index.html">Home</a>
+                        <a class="sidenav-item dropdown-btn active" href="#!">Elements</a>
+                        <div class="dropdown-container">
+                            <a class="dropdown-item" href="buttons.html">Buttons</a>
+                            <a class="dropdown-item" href="header.html">Header</a>
+                            <a class="dropdown-item" href="footer.html">Footer</a>
+                            <a class="dropdown-item" href="jumbotron.html">Jumbotron</a>
+                            <a class="dropdown-item" href="navigation.html">Navigation</a>
+                            <a class="dropdown-item" href="pagination.html">Pagination</a>
+                    </div>
+                </div>
+                </div>
+            </header>  
+            <main>
+                <div class="row section">
+                    <div class="column">
+                        <h1 class="heading">My PatternLibrary</h1>
+                        <h4 class="tagline">My PatternLibrary will allow elements from this to be downloaded to your own webpage!</h4>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Setup</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">CSS</h4>
+                            <p>Include this CSS file head of your HTML page to link to the relevant created stylesheet.</p>
+<pre>
+<code class="code-block"><span class="tag">&lt;link </span><span class="attrib">rel=</span><span class="value">"stylesheet"</span> <span class="attrib">href=</span><span class="value">"css/PatternLibrary.css"</span><span class="tag">&gt;</span></code>
+</pre>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="fa-icons">
+                        <div class="column">
+                            <h4 class="subtitle">Font Awesome Icons</h4>
+                            <p>If you want to use icons with PatternLibrary, make sure you include the Font Awesome CSS file into the <code class="code-inline"><span class="tag">&lt;head&gt;</span></code> of your HTML page. Icons have been added for the social media aspects in the footer element of this Pattern Library.</p>
+<pre>
+<code class="code-block"><span class="tag">&lt;link <span class="attrib">rel=</span><span class="value">"stylesheet"</span> <span class="attrib">href=</span><span class="value">"https://use.fontawesome.com/releases/v5.0.12/css/all.css"</span>&gt;</span></code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3 class="title">Structure of the HTML</h3>
+                            <p>This template includes all of the relevant files needed to get started with PatternLibrary.</p>
+<pre>
+<code class="code-block">&lt;!DOCTYPE html&gt;
+<span class="tag">&lt;html <span class="attrib">lang=</span><span class="value">"en"</span>&gt;</span>
+    <span class="tag">&lt;head&gt;</span>
+        <span class="comment">&lt;!-- Required meta tags for the HTML --&gt;</span>
+        <span class="tag">&lt;meta <span class="attrib">charset=</span><span class="value">"utf-8"</span>&gt;</span>
+        <span class="tag">&lt;meta <span class="attrib">name=</span><span class="value">"viewport"</span> <span class="attrib">content=</span><span class="value">"width=device-width, initial-scale=1"</span>&gt;</span>
+        
+        <span class="comment">&lt;!-- Font Awesome Icons --&gt;</span>
+        <span class="tag">&lt;link <span class="attrib">rel=</span><span class="value">"stylesheet"</span> <span class="attrib">href=</span><span class="value">"https://use.fontawesome.com/releases/v5.0.12/css/all.css"</span>&gt;</span>
+        
+        <span class="comment">&lt;!-- Import PatternLibrary.css --&gt;</span>
+        <span class="tag">&lt;link <span class="attrib">rel=</span><span class="value">"stylesheet"</span> <span class="attrib">href=</span><span class="value">"css/PatternLibrary.css"</span>&gt;</span>
+        
+        <span class="tag">&lt;title&gt;</span>Welcome to the PatternLibrary<span class="tag">&lt;/title&gt;</span>
+    <span class="tag">&lt;/head&gt;</span>
+    <span class="tag">&lt;body&gt;</span>
+        
+        <span class="comment">&lt;!-- Import jQuery first --&gt;</span>
+        <span class="tag">&lt;script <span class="attrib">type=</span><span class="value">"text/javascript"</span> <span class="attrib">src=</span><span class="value">"https://code.jquery.com/jquery-3.3.1.min.js"</span> </span>
+        <span class="comment">&lt;!-- Import PatternLibrary.js at end of body of the HTML this will aid in the loading --&gt;</span>
+        <span class="tag">&lt;script <span class="attrib">type=</span><span class="value">"text/javascript"</span> <span class="attrib">src=</span><span class="value">"js/PatternLibrary.js"</span>&gt;&lt;/script&gt;</span>
+    <span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/PatternLibrary.js"></script>
+        </div>
+    </body>

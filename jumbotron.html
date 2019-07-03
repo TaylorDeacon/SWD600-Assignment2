@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link rel="stylesheet" href="PatternLibrary.css">
+        <title>Pattern Library - Jumbotron</title>
+    </head>
+    <body id="is-dropdown-page">
+        <div class="documentation-wrapper">
+            <header>
+                <div class="fixed-sidenav">
+                    <div class="column">
+                          <a class="sidenav-item" href="index.html">Home</a>
+                        <a class="sidenav-item dropdown-btn active" href="#!">Elements</a>
+                        <div class="dropdown-container">
+                            <a class="dropdown-item" href="buttons.html">Buttons</a>
+                            <a class="dropdown-item" href="header.html">Header</a>
+                            <a class="dropdown-item" href="footer.html">Footer</a>
+                            <a class="dropdown-item active-dropdown-item" href="jumbotron.html">Jumbotron</a>
+                            <a class="dropdown-item" href="navigation.html">Navigation</a>
+                            <a class="dropdown-item" href="pagination.html">Pagination</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="row section">
+                    <div class="column">
+                        <h1 class="heading">Jumbotron</h1>
+                        <h4 class="tagline">A jumbotron is a large call-to-action box element that is used to call attention to specific areas of a web page such as a registering an email account or signing up to a newsletter distributed via email.</h4>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row"> 
+                        <div class="column column-title">
+                            <h2 class="title">Introduction</h2>
+                            <p>This is an example of a jumbotron being used to display a "Insert email address" cue.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="jumbotron">
+                                <h1>Register your email address</h1>
+                                <p>Want to keep up to date with our latest news and information?</p>
+                                <p>Enter your email below to register.</p>
+                                <form>
+                                    <input type="email" placeholder="Your email address">
+                                    <input type="submit" class="btn secondary filled" value="Register!">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Usage</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Contained Width Jumbotron</h4>
+<pre>
+<code class="code-block"><span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"container"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"jumbotron"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;h1&gt;</span>Register your email address<span class="tag">&lt;/h1&gt;</span>
+        <span class="tag">&lt;p&gt;</span>Want to keep up to date with our latest news and information?<span class="tag">&lt;/p&gt;</span>
+        <span class="tag">&lt;p&gt;</span>Enter your email below to register.<span class="tag">&lt;/p&gt;</span>
+        <span class="tag">&lt;input </span><span class="attrib">type=</span><span class="value">"email" </span><span class="attrib">placeholder=</span><span class="value">"Your email address"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;input </span><span class="attrib">type=</span><span class="value">"submit" </span><span class="attrib">class=</span><span class="value">"btn secondary filled" </span><span class="attrib">value=</span><span class="value">"Register!!"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/div&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column column-title">
+                            <h4 class="subtitle">Jumbotron in Full Width</h4>
+                            <p>If you want your jumbotron to take up the full width, remove the <code class="code-inline"><span class="value">.container</span></code> class.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/PatternLibrary.js"></script>
+        </div>
+    </body>
+</html>

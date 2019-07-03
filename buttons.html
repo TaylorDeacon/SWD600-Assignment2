@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link rel="stylesheet" href="PatternLibrary.css">
+        <title>PatternLibrary - Buttons</title>
+    </head>
+    <body id="is-dropdown-page">
+        <div class="documentation-wrapper">
+            <header>
+                <div class="fixed-sidenav">
+                    <div class="column">
+                        <a class="sidenav-item" href="index.html">Home</a>
+                        <a class="sidenav-item dropdown-btn active" href="#!">Elements</a>
+                        <div class="dropdown-container">
+                            <a class="dropdown-item active-dropdown-item" href="buttons.html">Buttons</a>
+                            <a class="dropdown-item" href="header.html">Header</a>
+                            <a class="dropdown-item" href="footer.html">Footer</a>
+                            <a class="dropdown-item" href="jumbotron.html">Jumbotron</a>
+                            <a class="dropdown-item" href="navigation.html">Navigation</a>
+                            <a class="dropdown-item" href="pagination.html">Pagination</a>
+                    </div>
+                </div>
+                </div>
+            </header>   
+            <main>
+                <div class="row section">
+                    <div class="column">
+                        <h1 class="heading">Buttons</h1>
+                        <h4 class="tagline">This element will be shown in various styles and settings; this will be appliable to multiple purposes.</h4>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Introduction</h2>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Default Style</h4>
+                            <p>The button is an essential design element designed to look like an interactive element.</p>
+                            <button class="btn">Button</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn"</span>&gt;Button<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Basic Usage</h4>
+                            <p>The <code class="code-inline">.button</code> class can be used on four different elements:</p>
+                            <ul class="explain-list">
+                                <li><code class="code-inline"><span class="tag">&lt;a&gt;</span></code> Anchor tags - these are hyperlinks allowing access throughout the webpage - leading the user to not be led away from the page.</li>
+                                <li><code class="code-inline"><span class="tag">&lt;button&gt;</span></code> Button tags - clickable link to allow the user to be able to naviagte throught the webpage or link to another.</li>
+                                <li><code class="code-inline"><span class="tag">&lt;input</span> <span class="attrib">type=</span><span class="value">"submit"</span><span class="tag">&gt;</span></code> Submit inputs - to allow the user to submit information; i.e a form.</li>
+                                <li><code class="code-inline"><span class="tag">&lt;input</span> <span class="attrib">type=</span><span class="value">"reset"</span><span class="tag">&gt;</span></code> Reset inputs - this could have the possibility to allow a form with information already to be quicked deleted by pressing this button.</li>
+                            </ul>
+                            <a class="btn">Anchor</a>
+                            <button class="btn">Button</button>
+                            <input type="submit" class="btn" value="Submit">
+                            <input type="reset" class="btn" value="Reset">
+<pre>
+<code class="code-block"><span class="tag">&lt;a</span> <span class="attrib">class=</span><span class="value">"btn"</span><span class="tag">&gt;</span>Anchor<span class="tag">&lt;/a&gt;</span>
+<span class="tag">&lt;button</span> <span class="attrib">class=</span><span class="value">"btn"</span><span class="tag">&gt;</span>Button<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;input</span> <span class="attrib">type=</span><span class="value">"submit"</span> <span class="attrib">class=</span><span class="value">"btn"</span> <span class="attrib">value=</span><span class="value">"Submit"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;input</span> <span class="attrib">type=</span><span class="value">"reset"</span> <span class="attrib">class=</span><span class="value">"btn"</span> <span class="attrib">value=</span><span class="value">"Reset"</span><span class="tag">&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Styles</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Filled - an aesthetic look to a button.</h4>
+                            <button class="btn filled">Filled</button>
+                            <button class="btn primary filled">Filled</button>
+                            <button class="btn secondary filled">Filled</button>
+                            <button class="btn success filled">Filled</button>
+                            <button class="btn error filled">Filled</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn filled"</span><span class="tag">&gt;</span>Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary filled"</span><span class="tag">&gt;</span>Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary filled"</span><span class="tag">&gt;</span>Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success filled"</span><span class="tag">&gt;</span>Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error filled"</span><span class="tag">&gt;</span>Filled<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Outlined - for the clean and subtle look for your webpage.</h4>
+                            <button class="btn outline">Outlined</button>
+                            <button class="btn primary outline">Outlined</button>
+                            <button class="btn secondary outline">Outlined</button>
+                            <button class="btn success outline">Outlined</button>
+                            <button class="btn error outline">Outlined</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn outline"</span><span class="tag">&gt;</span>Outlined<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary outline"</span><span class="tag">&gt;</span>Outlined<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary outline"</span><span class="tag">&gt;</span>Outlined<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success outline"</span><span class="tag">&gt;</span>Outlined<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error outline"</span><span class="tag">&gt;</span>Outlined<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+<div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Rounded Filled - to further the aesthetic to a filled button.</h4>
+                            <button class="btn rounded filled">Rounded</button>
+                            <button class="btn rounded primary filled">Rounded</button>
+                            <button class="btn rounded secondary filled">Rounded</button>
+                            <button class="btn rounded success filled">Rounded</button>
+                            <button class="btn rounded error filled">Rounded</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn rounded filled"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary rounded filled"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary rounded filled"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success rounded filled"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error rounded filled"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Rounded Outlined - rounding of the clean button look.</h4>
+                            <button class="btn rounded outline">Rounded</button>
+                            <button class="btn rounded primary outline">Rounded</button>
+                            <button class="btn rounded secondary outline">Rounded</button>
+                            <button class="btn rounded success outline">Rounded</button>
+                            <button class="btn rounded error outline">Rounded</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn rounded outline"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary rounded outline"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary rounded outline"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success rounded outline"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error rounded outline"</span><span class="tag">&gt;</span>Rounded<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Full Width Filled - this will cover the width of a page; leading for this button to be shown at the bottom of a page.</h4>
+                            <button class="btn block filled">Full Width Filled</button>
+                            <button class="btn primary block filled">Full Width Filled</button>
+                            <button class="btn secondary block filled">Full Width Filled</button>
+                            <button class="btn success block filled">Full Width Filled</button>
+                            <button class="btn error block filled">Full Width Filled</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn block filled"</span><span class="tag">&gt;</span>Full Width Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary block filled"</span><span class="tag">&gt;</span>Full Width Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary block filled"</span><span class="tag">&gt;</span>Full Width Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success block filled"</span><span class="tag">&gt;</span>Full Width Filled<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error block filled"</span><span class="tag">&gt;</span>Full Width Filled<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Raised - to add a shadowed effect to your button, furthering the aesthetic value.</h4>
+                            <p>To make any button raised, just add the <code class="code-inline"><span class="value">.raised</span></code> class to any button along with the colour and style you want.</p>
+                            <button class="btn filled raised">Button</button>
+                            <button class="btn primary filled raised">Button</button>
+                            <button class="btn secondary filled raised">Button</button>
+                            <button class="btn success filled raised">Button</button>
+                            <button class="btn error filled raised">Button</button>
+<pre>
+<code class="code-block"><span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn filled raised"</span><span class="tag">&gt;</span>Raised<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn primary filled raised"</span><span class="tag">&gt;</span>Raised<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn secondary filled raised"</span><span class="tag">&gt;</span>Raised<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn success filled raised"</span><span class="tag">&gt;</span>Raised<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;button </span><span class="attrib">class=</span><span class="value">"btn error filled raised"</span><span class="tag">&gt;</span>Raised<span class="tag">&lt;/button&gt;</span>
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
